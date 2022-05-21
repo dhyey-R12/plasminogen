@@ -66,11 +66,40 @@
     font-size: 60%;
 }
 .custom_assets{
+    display: table;
+    margin: 50px auto;
     width: 100%;
-    text-align: center;
-    margin: 50px 0;
+    text-align: left;
+}
+.custom_assets figcaption{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.custom_assets figcaption h6{
+    color: #252425;
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.custom_assets figcaption p{
+    color: #252425;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-size: italic;
+    margin-bottom: 10px;
 }
 .custom_assets img,
 .custom_assets video{
-    margin: auto;
+    margin: 0;
+}
+.blue_gradient_bg{
+    width: 100%;
+    background: linear-gradient(180deg, #689cbc, #506a9d);
+    text-align: center;
+}
+.blue_gradient_bg h4{
+    color: #FFFFFF;
 }
