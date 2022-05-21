@@ -4,25 +4,30 @@
 	<title>Website Title</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style2.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<!-- <link rel="icon" href="images/favicon.png"> -->
 </head>
 <body>
-	<div class="loader-wrapper"><div class="loader"></div></div>
+	<!-- <div class="loader-wrapper"><div class="loader"></div></div> -->
 	<header class="site_header">
-		<nav class="navbar navbar-expand-lg  navbar-light px-0 align-items-start">
+		<nav class="navbar navbar-expand-lg p-0 navbar-light align-items-start">
 			<div class="container align-items-start">
 				<a class="navbar-brand p-0 m-0" href="index.html">
-					<img src="images/logo.png">
+					<img src="images/logo.png" alt="logo image">
 				</a>
-
-				<a href="javascript:void(0);" class="navbar_toggler navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+				<a href="javascript:void(0);" class="navbar_toggler d-lg-none">
 					<div class="navbar_toggler_inner"></div>
 				</a>
-
 				<div class="collapse navbar-collapse" id="collapsibleNavbar">
+
 					<ul class="navbar-nav ml-auto">
+						<li class="nav-item logo d-lg-none">
+							<a class="nav-link" href="index.html">
+								<img src="images/logo.png" alt="logo image">
+							</a>
+						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="#">PLGD <br>Overview</a>
 						</li>
@@ -46,29 +51,34 @@
 			</div>
 		</nav>
 	</header>
-	<!-- <header class="site_header">
-		<div class="container">
-			<a href="index.html"></a>
-			
-			<nav class="custom_navbar">
-				<ul>
-					<li>
-						<a href="#">元気学園について</a>
-					</li>
-					<li>
-						<a href="#">学園の様子</a>
-					</li>
-					<li>
-						<a href="#">卒業生・保護者の声</a>
-					</li>
-					<li>
-						<a href="#">相談と入学について</a>
-					</li>
-				</ul>
-			</nav>
+	<section class="banner_section">
+		<div class="container d-flex">
+			<div class="banner_content w-100 d-flex flex-wrap flex-column justify-content-between">
+				<h2>Parting the Clouds on <br>Plasminogen Deficiency Type 1 <span>(PLGD-1)</span></h2>
+
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="banner_link text-center">
+							<p class="text-white">Learn more about this <br>rare genetic disorder</p>
+							<a href="#"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="banner_link text-center">
+							<p class="text-white">Discover breakthroughs<br> in treatment options</p>
+							<a href="#"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="banner_link text-center">
+							<p class="text-white">Find more PLGD-1 <br>resources</p>
+							<a href="#"><i class="fas fa-chevron-right"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</header> -->
-	<section></section>
+	</section>
 	<footer class="site_footer">
 		<div class="container">
 			<div class="row align-items-center">
@@ -78,7 +88,7 @@
 					<p class="mb-0 text-white">INTENDED FOR US AUDIENCES ONLY</p>
 				</div>
 				<div class="col-sm-6">
-					<div class="d-table ml-auto">
+					<div class="d-table ml-sm-auto mt-4 mt-sm-0">
 						<img src="images/kedrion_logo.png">
 					</div>
 				</div>
