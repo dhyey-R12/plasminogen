@@ -104,6 +104,7 @@ img{
     left: 0;
     right: 0;
     transition: all 0.4s;
+    z-index: 9999;
 }
 .site_header.scrollnav {
     background-color: #fff;
@@ -240,6 +241,56 @@ img{
     color: #fff;
 }
 /*banner section css end*/
+
+/*testing section css start*/
+.testing_section {
+    padding: 80px 0;
+}
+.testing_section .custom_note ul.icon_list {
+    padding: 0 15px;
+    max-width: 830px;
+    margin: 30px auto 0;
+}
+.testing_section .custom_note ul.icon_list li {
+    position: relative;
+    padding-left: 80px;
+    margin-bottom: 25px;
+    list-style: none;
+} 
+.testing_section .custom_note ul.icon_list li img {
+    max-width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.testing_section .testing_box p,
+.testing_section .custom_note ul.icon_list li p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.testing_section .testing_box p span,
+.testing_section .custom_note ul.icon_list li p span {
+    font-weight: 600;
+}
+.testing_section .testing_box {
+    padding-top: 35px;
+}
+.testing_section .testing_box img {
+    max-width: 75px;
+    margin-bottom: 10px;
+}
+.testing_section .testing_box p a {
+    color: #42A5CA;
+    text-decoration: underline;
+}
+.testing_section p.testing_text {
+    font-size: 16px;
+    color: #0A0809;
+    margin-top: 30px;
+}
+
+/*testing section css end*/
 
 
 
