@@ -1,8 +1,4 @@
-.overview_section{
-    width: 100%;
-    padding: 61px 0 0;
-    background-color: rgba(73, 197, 224, 0.11);
-}
+/* common css start */
 .border_heading{
     display: inline-block;
     border: 1px solid #2E4488;
@@ -123,10 +119,6 @@
     font-weight: 600;
     line-height: 1.4;
 }
-.sign_and_symptom_section{
-    width: 100%;
-    padding: 61px 0;
-}
 .custom_qoute{
     position: relative;
     width: 100%;
@@ -172,11 +164,42 @@
     font-family: 'Nexa';
     font-weight: bold;
 }
+.description{
+    width: 100%;
+}
+.description p{
+    color: #0A0809;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    line-height: 1.38;
+}
+/* common css end */
+
+/* overview-section css start */
+.overview_section{
+    width: 100%;
+    padding: 61px 0 0;
+    background-color: rgba(73, 197, 224, 0.11);
+}
+/* overview-section css end */
+
+/* sign_and_symptom-section css start */
+.sign_and_symptom_section{
+    width: 100%;
+    padding: 61px 0;
+}
+/* sign_and_symptom-section css end */
+
+/* affected-section css start */
 .affected_section{
     width: 100%;
     padding: 61px 0 0;
     background-color: rgba(73, 197, 224, 0.11);
 }
+/* affected-section css end */
+
+/* affected-section css start */
 .affected_list{
     position: relative;
     z-index: 1;
@@ -224,25 +247,23 @@
     position: relative;
     z-index: 1;
 }
+/* affected-section css end */
+
+/* treatment-section css start */
 .treatment_section{
     width: 100%;
     padding: 61px 0 50px;
     background-color: rgba(73, 197, 224, 0.11);
 }
+/* treatment-section css end */
+
+/* patient_resource-section css start */
 .patient_resource_section{
     width: 100%;
     padding: 61px 0 56px;
 }
-.description{
-    width: 100%;
-}
-.description p{
-    color: #0A0809;
-    font-size: 16px;
-    font-family: 'Proxima Nova Rg';
-    font-weight: normal;
-    line-height: 1.38;
-}
+/* patient_resource-section css end */
+
 
 @media (max-width: 767px){
     .border_heading{
