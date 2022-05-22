@@ -41,6 +41,184 @@ img{
 }
 /*common css end*/
 
+/*common section css start */
+.border_heading{
+    display: inline-block;
+    border: 1px solid #2E4488;
+    padding: 13px 13px;
+    margin-bottom: 22px;
+}
+.border_heading h2{
+    color: #2E4488;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: 4px;
+}
+.custom_note{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.custom_note h4{
+    color: #1E1C1D;
+    font-size: 28px;
+    font-family: 'NexaRegular';
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.custom_note p{
+    color: #1E1C1D;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Proxima Nova Rg';
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+.custom_note p a{
+    color: #42A5CA;
+    text-decoration: underline;
+}
+.custom_note ul{
+    padding-left: 20px;
+    margin: 15px 0;
+}
+.custom_note ul,
+.custom_note ol,
+.custom_note li{
+    list-style: disc;
+    color: #1E1C1D;
+    font-weight: normal;
+    font-size: 20px;
+    font-family: 'Proxima Nova Rg';
+    line-height: 1.3;
+}
+.custom_note li{
+    margin-bottom: 5px;
+}
+.custom_note ul.with_blue_marker li::marker {
+    color: #49C5E0;
+}
+.custom_note li a{
+    color: #42A5CA;
+    text-decoration: underline;
+}
+.custom_note li li{
+    position: relative;
+    list-style: none;
+}
+.custom_note li li:before{
+    content: '—';
+    position: absolute;
+    top: 0;
+    left: -18px;
+    font-weight: 400;
+}
+.custom_note p sup{
+    font-size: 60%;
+}
+.custom_assets{
+    display: table;
+    margin: 50px auto;
+    text-align: left;
+}
+.custom_assets figcaption{
+    width: 100%;
+    max-width: 400px;
+    margin-top: 10px;
+}
+.custom_assets figcaption h6{
+    color: #252425;
+    font-size: 16px;
+    font-family: 'Nexa';
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.custom_assets figcaption p{
+    color: #252425;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    font-size: italic;
+    margin-bottom: 10px;
+}
+.custom_assets img,
+.custom_assets video{
+    margin: 0;
+}
+.custom_assets > img,
+.custom_assets > video{
+    margin: auto;
+}
+.blue_gradient_bg{
+    width: 100%;
+    background: linear-gradient(180deg, #689cbc, #506a9d);
+    text-align: center;
+    padding: 53px 0;
+}
+.blue_gradient_bg h4{
+    color: #FFFFFF;
+    font-size: 28px;
+    font-family: 'NexaRegular';
+    font-weight: 600;
+    line-height: 1.4;
+}
+.custom_qoute{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0;
+}
+.custom_qoute:before,
+.custom_qoute:after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    height: 1px;
+    margin: auto;
+    background: linear-gradient(270deg, #FFFFFF, #707070, #FFFFFF);
+}
+.custom_qoute:before{
+    top: 0;
+}
+.custom_qoute:after{
+    bottom: 0;
+}
+.custom_qoute h5{
+    position: relative;
+    color: #3B82B2;
+    font-size: 26px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: 600;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+.custom_qoute h5 span{
+    color: #2E4488;
+    font-size: 30px;
+}
+.custom_qoute p{
+    color: #2E4488;
+    font-size: 20px;
+    font-family: 'Nexa';
+    font-weight: bold;
+}
+.description{
+    width: 100%;
+}
+.description p{
+    color: #0A0809;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    line-height: 1.38;
+}
+/*common section css end */
+
 /*page pre-loader css start*/
 .loader-wrapper {
     position: fixed;
@@ -289,12 +467,95 @@ img{
     color: #0A0809;
     margin-top: 30px;
 }
-
 /*testing section css end*/
 
+/* overview-section css start */
+.overview_section{
+    width: 100%;
+    padding: 61px 0 0;
+    background-color: rgba(73, 197, 224, 0.11);
+}
+/* overview-section css end */
 
+/* sign_and_symptom-section css start */
+.sign_and_symptom_section{
+    width: 100%;
+    padding: 61px 0;
+}
+/* sign_and_symptom-section css end */
 
+/* affected-section css start */
+.affected_section{
+    width: 100%;
+    padding: 61px 0 0;
+    background-color: rgba(73, 197, 224, 0.11);
+}
+/* affected-section css end */
 
+/* affected-section css start */
+.affected_list{
+    position: relative;
+    z-index: 1;
+}
+.affected_list .feature_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    text-align: center;
+}
+.affected_list .feature_img img{
+    margin: auto;
+}
+.affected_list ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.affected_list_img{
+    width: 80px;
+}
+.affected_list_cont{
+    width: calc(100% - 95px);
+}
+.affected_list_cont p{
+    font-size: 20px;
+}.affected_list_cont p span{
+    font-size: 26px;
+}
+.affected_list_cont p a{
+    color: #42A5CA;
+    text-decoration: underline;
+}
+.affected_list_cont p strong{
+    color: #2E4488;
+}
+.affected_btm_gradient{
+    width: 100%;
+    background: linear-gradient(180deg, #689cbc, #506a9d);
+    padding: 25px 0;
+    position: relative;
+    z-index: 1;
+}
+/* affected-section css end */
+
+/* treatment-section css start */
+.treatment_section{
+    width: 100%;
+    padding: 61px 0 50px;
+    background-color: rgba(73, 197, 224, 0.11);
+}
+/* treatment-section css end */
+
+/* patient_resource-section css start */
+.patient_resource_section{
+    width: 100%;
+    padding: 61px 0 56px;
+}
+/* patient_resource-section css end */
 
 @media (min-width: 1300px) {
     .site_header .container,
@@ -308,7 +569,6 @@ img{
         max-width: 1116px !important;
     }
 }
-
 @media (max-width: 1199px) {
     .site_header .navbar-brand img {
         max-width: 250px;
@@ -362,6 +622,53 @@ img{
     }
     .site_footer {
         padding: 30px 0;
+    }
+    .border_heading{
+        padding: 10px;
+    }
+    .border_heading h2{
+        font-size: 16px;
+        letter-spacing: 2.5px;
+    }
+    .custom_note h4{
+        font-size: 20px;
+    }
+    .custom_note p{
+        font-size: 16px;
+    }
+    .custom_note ul, .custom_note ol, .custom_note li{
+        font-size: 16px;
+    }
+    .custom_assets{
+        margin: 10px auto;
+    }
+    .custom_qoute{
+        padding: 30px 0;
+        margin: 30px 0;
+    }
+    .custom_qoute h5{
+        font-size: 20px;
+    }
+    .custom_qoute h5 span{
+        font-size: 24px;
+    }
+    .custom_qoute p{
+        font-size: 16px;
+    }
+    .blue_gradient_bg h4{
+        font-size: 20px;
+    }
+    .affected_list_img{
+        width: 60px;
+    }
+    .affected_list_cont{
+        width: calc(100% - 75px);
+    }
+    .affected_list_cont p{
+        font-size: 16px;
+    }
+    .affected_list_cont p span{
+        font-size: 20px;
     }
 }
 @media (max-width: 575px) {
