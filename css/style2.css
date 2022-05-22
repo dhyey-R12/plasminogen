@@ -56,6 +56,13 @@
 .custom_note li{
     margin-bottom: 5px;
 }
+.custom_note ul.with_blue_marker li::marker {
+    color: #49C5E0;
+}
+.custom_note li a{
+    color: #42A5CA;
+    text-decoration: underline;
+}
 .custom_note li li{
     position: relative;
     list-style: none;
@@ -73,7 +80,6 @@
 .custom_assets{
     display: table;
     margin: 50px auto;
-    width: 100%;
     text-align: left;
 }
 .custom_assets figcaption{
@@ -115,8 +121,7 @@
     font-size: 28px;
     font-family: 'NexaRegular';
     font-weight: 600;
-    margin-bottom: 5px;
-    line-height: 1;
+    line-height: 1.4;
 }
 .sign_and_symptom_section{
     width: 100%;
@@ -172,8 +177,119 @@
     padding: 61px 0 0;
     background-color: rgba(73, 197, 224, 0.11);
 }
+.affected_list{
+    position: relative;
+    z-index: 1;
+}
+.affected_list .feature_img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    text-align: center;
+}
+.affected_list .feature_img img{
+    margin: auto;
+}
+.affected_list ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.affected_list_img{
+    width: 80px;
+}
+.affected_list_cont{
+    width: calc(100% - 95px);
+}
+.affected_list_cont p{
+    font-size: 20px;
+}.affected_list_cont p span{
+    font-size: 26px;
+}
+.affected_list_cont p a{
+    color: #42A5CA;
+    text-decoration: underline;
+}
+.affected_list_cont p strong{
+    color: #2E4488;
+}
 .affected_btm_gradient{
     width: 100%;
     background: linear-gradient(180deg, #689cbc, #506a9d);
     padding: 25px 0;
+    position: relative;
+    z-index: 1;
+}
+.treatment_section{
+    width: 100%;
+    padding: 61px 0 50px;
+    background-color: rgba(73, 197, 224, 0.11);
+}
+.patient_resource_section{
+    width: 100%;
+    padding: 61px 0 56px;
+}
+.description{
+    width: 100%;
+}
+.description p{
+    color: #0A0809;
+    font-size: 16px;
+    font-family: 'Proxima Nova Rg';
+    font-weight: normal;
+    line-height: 1.38;
+}
+
+@media (max-width: 767px){
+    .border_heading{
+        padding: 10px;
+    }
+    .border_heading h2{
+        font-size: 16px;
+        letter-spacing: 2.5px;
+    }
+    .custom_note h4{
+        font-size: 20px;
+    }
+    .custom_note p{
+        font-size: 16px;
+    }
+    .custom_note ul, .custom_note ol, .custom_note li{
+        font-size: 16px;
+    }
+    .custom_assets{
+        margin: 10px auto;
+    }
+    .custom_qoute{
+        padding: 30px 0;
+        margin: 30px 0;
+    }
+    .custom_qoute h5{
+        font-size: 20px;
+    }
+    .custom_qoute h5 span{
+        font-size: 24px;
+    }
+    .custom_qoute p{
+        font-size: 16px;
+    }
+    .blue_gradient_bg h4{
+        font-size: 20px;
+    }
+    .affected_list_img{
+        width: 60px;
+    }
+    .affected_list_cont{
+        width: calc(100% - 75px);
+    }
+    .affected_list_cont p{
+        font-size: 16px;
+    }
+    .affected_list_cont p span{
+        font-size: 20px;
+    }
 }
