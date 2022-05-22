@@ -23,9 +23,9 @@ body.no_scroll {
 a, button, input[type=submit], select{
     cursor: pointer;
 }
-a, a:hover, a:focus, 
+a, a:hover, a:focus,
 button, button:hover, button:focus,
-input, input:hover, input:focus, 
+input, input:hover, input:focus,
 textarea, textarea:hover, textarea:focus,
 select, select:hover, select:focus{
     outline: 0;
@@ -108,7 +108,7 @@ img{
     list-style: none;
 }
 .custom_note li li:before{
-    content: '—';
+    content: '-';
     position: absolute;
     top: 0;
     left: -18px;
@@ -304,6 +304,7 @@ img{
     text-align: center;
     font-weight: 700;
     color: #42A5CA !important;
+    font-family: 'Nexa';
     padding: 0 15px !important;
 }
 .navbar_toggler {
@@ -400,15 +401,18 @@ img{
     font-size: 44px;
     font-weight: 600;
     line-height: 53px;
+    font-family: 'Nexa';
     margin: 0;
 }
 .banner_content h2 span {
     font-size: 34px;
+    font-weight: normal;
 }
 .banner_content .banner_link p {
     font-size: 20px;
     line-height: 30px;
     margin: 0;
+    font-family: 'Proxima Nova Rg';
 }
 .banner_content .banner_link a {
     display: table;
@@ -436,7 +440,7 @@ img{
     padding-left: 80px;
     margin-bottom: 25px;
     list-style: none;
-} 
+}
 .testing_section .custom_note ul.icon_list li img {
     max-width: 60px;
     position: absolute;
